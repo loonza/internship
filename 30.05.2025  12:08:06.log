@@ -1,0 +1,15 @@
+30.05.2025  12:08:06 – Ошибка выполнения :
+        
+CustomError: Процесс завершился с ошибкой
+        
+SystemError: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at request (node:https:369:32)
+    at Object.get (node:https:417:15)
+    at /Users/albertv/WebstormProjects/internship/2.js:112:15
+    at new Promise (<anonymous>)
+    at fetchHtml (/Users/albertv/WebstormProjects/internship/2.js:106:12)
+    at parsing (/Users/albertv/WebstormProjects/internship/2.js:127:28)
+    at Object.<anonymous> (/Users/albertv/WebstormProjects/internship/2.js:151:1)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
