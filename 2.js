@@ -30,7 +30,7 @@ function cleanText(text) {
 // Строка времени для имени лог-файла , 24 часовой формат , заменяем по условию (dd.mm.yyyy hh:mm:ss)
 function nowString() {
     const now = new Date();
-    return now.toLocaleString('ru-RU', { hour12: false }).replace(',', ' ');
+    return now.toLocaleString('ru-RU', { hour12: false }).replace(',', ' ').replace(/[:]/g,'-');
 }
 
 // Логируем ошибки , timestamp = nowString() - указание времени , logFile - название лог файла в виде {timestamp]log , fs.append - создание в пути директории лог файла
